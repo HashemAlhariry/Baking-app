@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="@dimen/widget_margin"
+    android:id="@+id/relativeLayoutWidget">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Nutella"
+       android:layout_centerHorizontal="true"
+       android:background="@drawable/newrectangle"
+       android:id="@+id/nutella"
+       android:padding="5dp"
+       android:layout_margin="5dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/newrectangle"
+       android:text="brownies"
+       android:id="@+id/brownies"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/nutella"
+       android:padding="5dp"
+       android:layout_margin="5dp"/>
+
+   <TextView
+       android:layout_below="@+id/brownies"
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/newrectangle"
+       android:text="yellowcake"
+       android:id="@+id/yellowcake"
+       android:padding="5dp"
+       android:layout_margin="5dp"/>
+
+   <TextView
+       android:layout_below="@+id/yellowcake"
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/newrectangle"
+       android:text="cheesecake"
+       android:id="@+id/cheesecake"
+       android:padding="5dp"
+       android:layout_margin="5dp"/>
+
+
+</RelativeLayout>
